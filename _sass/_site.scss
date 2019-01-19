@@ -34,6 +34,8 @@ body {
 .header {
   padding: 2%;
   margin-bottom: 1.5em;
+  background-color : $oc-gray-7; // oc-indigo-8; // 추가한 부분
+  border-radius: 3px; // 추가한 부분
 
   &-title {
     margin: 0.3em 0;
