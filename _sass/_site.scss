@@ -34,6 +34,8 @@ body {
 .header {
   padding: 2%;
   margin-bottom: 1.5em;
+  background-color : #0080FF; // oc-indigo-8; // 추가한 부분
+  border-radius: 3px; // 추가한 부분
 
   &-title {
     margin: 0.3em 0;
@@ -42,7 +44,7 @@ body {
     font-weight: 600;
 
     a {
-      color: $base-color;
+      color: #eff8fb; /* $base-color; */ //추가한 부분
       &:hover,
       &:focus {
         text-decoration: none;
@@ -57,7 +59,7 @@ body {
 
   &-nav {
     a {
-      color: $oc-gray-7;
+      color: #eff8fb; /* $oc-gray-7; */ //추가한 부분
       text-transform: lowercase;
       -webkit-transition: all .2s ease;
          -moz-transition: all .2s ease;
@@ -66,7 +68,7 @@ body {
 
       &:hover,
       &:focus {
-        color: $oc-gray-7;
+        color: #2efec8; /* $oc-gray-7; */ //추가한 부분
         text-decoration: none;
       }
     }
