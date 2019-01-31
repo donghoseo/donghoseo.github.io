@@ -180,6 +180,27 @@ body {
 }
 
 /*--------------
+  Scroll Top
+  --------------*/
+
+.scroll-top {
+  position: fixed;
+  z-index: 9999;
+  display: none;
+  bottom: 20px;
+  right: 25px;
+  
+  img {
+    background-color: #00cd00;
+    border-radius: 100px;
+    padding: 15px;
+    height: 70px;
+    width: 70px;
+  }
+}
+
+
+/*--------------
   Post list
   -------------- */
 
