@@ -32,7 +32,7 @@ google-analytics:
 
 # Disqus
 disqus:             #
-  id:               #"kiko-plus"
+  id:               "donghoseo" #"kiko-plus"
 
 # URL
 url:                "https://donghoseo.github.io" # the base hostname & protocol for your site
