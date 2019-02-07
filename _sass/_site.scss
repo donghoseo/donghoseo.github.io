@@ -83,12 +83,17 @@ body {
   text-transform: uppercase;
 
   a {
-    color: $base-color;
-
+    color: $oc-indigo-9; //$base-color; 수정한 부분
+    font-family: Arial;
+    
     &:hover,
     &:focus {
       text-decoration: none;
     }
+  }
+
+  i {
+    color : $oc-indigo-9; // 추가한 부분
   }
 }
 
